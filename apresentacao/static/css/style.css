@@ -1,0 +1,97 @@
+body {
+    background: #4f4f4f;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.label_apresen {
+    height: 100vh;
+    width: 45vh;
+    background: #353535;
+}
+
+.name {
+    font-size: 28px;
+    color: #e8e8e8;
+    font-family: "Times New Roman", Times, fantasy;
+    font-style: normal;
+    margin-top: -700px;
+    margin-left: 350px;
+
+}
+
+.button_exp {
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 200px;
+    padding: 5px 10px;
+    background: #e8e8e8;
+    text-decoration: #e8e8e8;
+    color: #1b1b1b;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.button_conhece {
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 25px;
+    padding: 5px 39px;
+    background: #e8e8e8;
+    text-decoration: #e8e8e8;
+    color: #1b1b1b;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.button_certificado {
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 25px;
+    padding: 5px 50px;
+    background: #e8e8e8;
+    text-decoration: #e8e8e8;
+    color: #1b1b1b;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.button_trabalhos {
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 25px;
+    padding: 5px 28px;
+    background: #e8e8e8;
+    text-decoration: #e8e8e8;
+    color: #1b1b1b;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.centralizacao_git {
+    text-align: left;
+    margin-top: 65%;
+}
+
+.imagem_git {
+    width: 55px;
+    display: block;
+    margin-left: 25px;
+}
+
+.imagem_linke {
+    width: 40px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.imagem_insta {
+    width: 40px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
