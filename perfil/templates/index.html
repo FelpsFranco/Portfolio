@@ -1,46 +1,35 @@
-<!doctype html>
+{% extends 'base.html' %}
 {% load static %}
+{% block content %}
 
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    </head>
     <body>
-        <div class="label_apresen">
-            <a class="button_exp" href=" {% url 'experiencia' %}">
-                Experiência Profissional
+            <a class="buttonExp" href=" {% url 'experiencia' %}">
+                Professional experience
             </a>
-            <a class="button_conhece" href=" {% url 'experiencia' %}">
-                Conhecimentos
+            <a class="buttonConhece" href=" {% url 'experiencia' %}">
+                Skills
             </a>
-            <a class="button_certificado" href="{% url 'experiencia' %}">
-                Certificados
+            <a class="buttonCertificado" href="{% url 'experiencia' %}">
+                Certificates
             </a>
-            <a class="button_trabalhos" href=" {% url 'experiencia' %}">
-                Trabalhos Pessoais
+            <a class="buttonTrabalhos" href=" {% url 'experiencia' %}">
+                Personal Work
             </a>
-            <div class="centralizacao_git">
-                <a href="https://github.com/FelpsFranco" style="display: inline-block">
-                    <img class="imagem_git" src="{% static 'img/icon_git.png' %}" alt="Icon Github">
+            <div class="name">
+                <br> <br> <br>
+                <p style="margin-top: 50px"> Hi, my name is <strong style="font-size: 30px; color: #ff2831"> Felipe Franco </strong> </p>
+                <p style="margin-left: 100px" > I'll tell you a little about <strong style="font-size: 38px; color: #ff2831"> myself ! </strong></p>
+            </div>
+            <div class="icon">
+                <a href="https://github.com/FelpsFranco" class="imagem_git">
+                    <img src="{% static 'img/icon_git.png' %}" alt="Icon Github">
                 </a>
-                <a href="https://www.linkedin.com/in/felipe-franco-03ba90180/" style="display: inline-block">
-                    <img class="imagem_linke" src="{% static 'img/icon_linkedin.png' %}" alt="Icon Github">
+                <a href="https://www.linkedin.com/in/felipe-franco-03ba90180/" class="imagem_linke">
+                    <img src="{% static 'img/icon_linkedin.png' %}" alt="Icon Github">
                 </a>
-                <a href="https://instagram.com/felipesfranco?igshid=ZDdkNTZiNTM=" style="display: inline-block">
-                    <img class="imagem_insta" src="{% static 'img/icon_insta.png' %}" alt="Icon Insta">
+                <a href="https://instagram.com/felipesfranco?igshid=ZDdkNTZiNTM=" class="imagem_insta">
+                    <img src="{% static 'img/icon_insta.png' %}" alt="Icon Insta">
                 </a>
             </div>
-        </div>
-        <div class="name">
-            <br> <br> <br>
-            <p style="margin-top: 0"> Hello, my name is </p>
-            <p style="margin-left: 100px"> <strong style="font-size: 30px; color: #ff2831"> Felipe Franco </strong> </p>
-            <p style="margin-left: 200px" > I'll tell you a little about <strong style="font-size: 38px; color: #ff2831"> myself ! </strong></p>
-        </div>
     </body>
-</html>
+{% endblock %}

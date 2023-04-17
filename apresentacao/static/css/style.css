@@ -5,93 +5,89 @@ body {
     width: 100vw;
 }
 
-.label_apresen {
-    height: 100vh;
-    width: 45vh;
-    background: #353535;
-}
-
 .name {
-    font-size: 28px;
+    font-size: 22px;
     color: #e8e8e8;
-    font-family: "Times New Roman", Times, fantasy;
+    font-family: "Times New Roman", Times, serif;
     font-style: normal;
-    margin-top: -700px;
-    margin-left: 350px;
-
+    margin-top: -5vw;
+    margin-left: 7vw;
 }
 
-.button_exp {
+.buttonExp {
     display: inline-block;
-    margin-left: 45px;
-    margin-top: 200px;
-    padding: 5px 10px;
-    background: #e8e8e8;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 65vw;
+    margin-top: 1vw;
     text-decoration: #e8e8e8;
-    color: #1b1b1b;
+    color: #e8e8e8;
     border-radius: 5px;
-    font-size: 16px;
-    font-style: italic;
+    font-size: 18px;
+    font-style: normal;
 }
 
-.button_conhece {
+.buttonConhece {
     display: inline-block;
-    margin-left: 45px;
+    font-family: "Times New Roman", Times, serif;
     margin-top: 25px;
-    padding: 5px 39px;
-    background: #e8e8e8;
+    margin-left: 1vw;
     text-decoration: #e8e8e8;
-    color: #1b1b1b;
+    color: #e8e8e8;
     border-radius: 5px;
-    font-size: 16px;
-    font-style: italic;
+    font-size: 18px;
+    font-style: normal;
 }
 
-.button_certificado {
+.buttonCertificado {
     display: inline-block;
-    margin-left: 45px;
+    font-family: "Times New Roman", Times, serif;
     margin-top: 25px;
-    padding: 5px 50px;
-    background: #e8e8e8;
+    margin-left: 1vw;
     text-decoration: #e8e8e8;
-    color: #1b1b1b;
+    color: #e8e8e8;
     border-radius: 5px;
-    font-size: 16px;
-    font-style: italic;
+    font-size: 18px;
+    font-style: normal;
 }
 
-.button_trabalhos {
+.buttonTrabalhos {
     display: inline-block;
-    margin-left: 45px;
+    font-family: "Times New Roman", Times, serif;
     margin-top: 25px;
-    padding: 5px 28px;
-    background: #e8e8e8;
+    margin-left: 1vw;
     text-decoration: #e8e8e8;
-    color: #1b1b1b;
+    color: #e8e8e8;
     border-radius: 5px;
-    font-size: 16px;
-    font-style: italic;
+    font-size: 18px;
+    font-style: normal;
 }
 
-.centralizacao_git {
-    text-align: left;
-    margin-top: 65%;
+.icon {
+    width: 30vw;
+    height: 5vh;
+    margin-top: 25vw;
 }
 
-.imagem_git {
-    width: 55px;
-    display: block;
-    margin-left: 25px;
+.imagem_git img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2vw;
+    margin-top: 1.5vw;
+    width: 3.5vw;
 }
 
-.imagem_linke {
-    width: 40px;
-    margin-left: 30px;
-    margin-bottom: 5px;
+.imagem_insta img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2vw;
+    margin-top: 1.8vw;
+    width: 3vw;
 }
 
-.imagem_insta {
-    width: 40px;
-    margin-left: 40px;
-    margin-bottom: 10px;
+.imagem_linke img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2vw;
+    margin-top: 1.9vw;
+    width: 2.8vw;
 }
