@@ -1,8 +1,19 @@
 body {
-    background: #4f4f4f;
     margin: 0;
-    height: 100vh;
-    width: 100vw;
+    background: #4f4f4f;
+}
+
+.divLogo {
+    width: 25vw;
+    margin-left: 1vw;
+    margin-bottom: -4vw;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 1vw;
+    margin-bottom: -1vw;
 }
 
 .name {
@@ -10,7 +21,7 @@ body {
     color: #e8e8e8;
     font-family: "Times New Roman", Times, serif;
     font-style: normal;
-    margin-top: -5vw;
+    margin-top: -2vw;
     margin-left: 7vw;
 }
 
@@ -65,14 +76,13 @@ body {
 .icon {
     width: 30vw;
     height: 5vh;
-    margin-top: 25vw;
+    margin-top: 15vw;
 }
 
 .imagem_git img {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 2vw;
-    margin-top: 1.5vw;
+    margin-top: 5.1vw;
     width: 3.5vw;
 }
 
@@ -80,7 +90,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     margin-left: 2vw;
-    margin-top: 1.8vw;
+    margin-top: 5.4vw;
     width: 3vw;
 }
 
@@ -88,6 +98,6 @@ body {
     display: inline-block;
     vertical-align: middle;
     margin-left: 2vw;
-    margin-top: 1.9vw;
+    margin-top: 5.5vw;
     width: 2.8vw;
 }

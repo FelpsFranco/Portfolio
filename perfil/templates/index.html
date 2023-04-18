@@ -3,33 +3,43 @@
 {% block content %}
 
     <body>
-            <a class="buttonExp" href=" {% url 'experiencia' %}">
-                Professional experience
+        <div class="divLogo">
+            <a href="https://docs.python.org/pt-br/3/tutorial/index.html">
+                <img src="{% static 'img/logo_python.png' %}" alt="Logo Python" class="logo">
             </a>
-            <a class="buttonConhece" href=" {% url 'experiencia' %}">
-                Skills
+        </div>
+        <a class="buttonExp" href=" {% url 'experiencia' %}">
+            Professional experience
+        </a>
+        <a class="buttonConhece" href=" {% url 'experiencia' %}">
+            Skills
+        </a>
+        <a class="buttonCertificado" href="{% url 'experiencia' %}">
+            Certificates
+        </a>
+        <a class="buttonTrabalhos" href=" {% url 'experiencia' %}">
+            Personal Work
+        </a>
+        <div class="name">
+            <br> <br> <br>
+            <p style="margin-top: 50px"> Hi, my name is <strong style="font-size: 30px; color: #ff2831"> Felipe Franco </strong> </p>
+            <p style="margin-left: 100px" > I'll tell you a little about <strong style="font-size: 38px; color: #ff2831"> myself ! </strong></p>
+            <p style="margin-top: 50px; font-size: 14px">
+                I'm a Software Engineer, currently focusing on Python studies for Data and Web Analysis (Django Framework).
+                <br>
+                Working as a Senior Support Analyst focusing on ERP (Enterprise Resource Planning), POS(Point Of Sale) and BI!
+            </p>
+        </div>
+        <div class="icon">
+            <a href="https://github.com/FelpsFranco" class="imagem_git">
+                <img src="{% static 'img/icon_git.png' %}" alt="Icon Github">
             </a>
-            <a class="buttonCertificado" href="{% url 'experiencia' %}">
-                Certificates
+            <a href="https://www.linkedin.com/in/felipe-franco-03ba90180/" class="imagem_linke">
+                <img src="{% static 'img/icon_linkedin.png' %}" alt="Icon Github">
             </a>
-            <a class="buttonTrabalhos" href=" {% url 'experiencia' %}">
-                Personal Work
+            <a href="https://instagram.com/felipesfranco?igshid=ZDdkNTZiNTM=" class="imagem_insta">
+                <img src="{% static 'img/icon_insta.png' %}" alt="Icon Insta">
             </a>
-            <div class="name">
-                <br> <br> <br>
-                <p style="margin-top: 50px"> Hi, my name is <strong style="font-size: 30px; color: #ff2831"> Felipe Franco </strong> </p>
-                <p style="margin-left: 100px" > I'll tell you a little about <strong style="font-size: 38px; color: #ff2831"> myself ! </strong></p>
-            </div>
-            <div class="icon">
-                <a href="https://github.com/FelpsFranco" class="imagem_git">
-                    <img src="{% static 'img/icon_git.png' %}" alt="Icon Github">
-                </a>
-                <a href="https://www.linkedin.com/in/felipe-franco-03ba90180/" class="imagem_linke">
-                    <img src="{% static 'img/icon_linkedin.png' %}" alt="Icon Github">
-                </a>
-                <a href="https://instagram.com/felipesfranco?igshid=ZDdkNTZiNTM=" class="imagem_insta">
-                    <img src="{% static 'img/icon_insta.png' %}" alt="Icon Insta">
-                </a>
-            </div>
+        </div>
     </body>
 {% endblock %}
