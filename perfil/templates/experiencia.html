@@ -1,10 +1,23 @@
-{% extends 'base.html' %}
+<!doctype html>
+{% extends 'mudarExp.html' %}
 {% load static %}
-
 {% block content %}
 
-    <body class="body">
-        <a> Unika Sistemas </a>
+    <body style="background-image: url('{% static 'img/fundo.png' %}')">
+        <div class="divLogo">
+            <a href="https://docs.python.org/pt-br/3/tutorial/index.html">
+                <img src="{% static 'img/logo_python.png' %}" alt="Logo Python" class="logo">
+            </a>
+        </div>
+        <div class="divButtonMain">
+            <a class="buttonMain" href="{% url 'index' %}">
+                Initial
+            </a>
+        </div>
+        <div class="divButton">
+            <button onclick="admExp()" class="buttonAdm"> Internship </button>
+            <button onclick="supExp()" class="buttonSup"> IT Experience </button>
+        </div>
+        <div class="exper"> </div>
     </body>
-
 {% endblock %}

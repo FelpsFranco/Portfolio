@@ -1,0 +1,71 @@
+<!doctype html>
+{% load static %}
+
+
+<html lang="pt-br">
+{% block content %} {% endblock %}
+    <head>
+        <<meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/experience_style.css' %}">
+
+        <script>
+            function admExp(){
+                var experiencia = document.querySelector('.exper');
+                experiencia.innerHTML='' +
+                    '<div class="infoExp">' +
+                    '<p style="font-size: 24px">' +
+                    ' <strong> Administrative Assistant </strong>  ' +
+                    '          </p>\n' +
+                    '<p style="margin-top: 5vw"> ' +
+                    '   My first formal job during the period from January 2018 to April 2019.  <br>\n' +
+                    '          </p>\n' +
+                    '<p>\n' +
+                    'Administrative assistant at the Emergency Room/Urgent Care at Santa Casa de Misericórdia Anápolis,' +
+                    '         </p>\n' +
+                    '<p>\n' +
+                    '    where I registered patients, did rounds in the wards, and received visitors.\n' +
+                    '         </p>\n' +
+                    '<p>\n' +
+                    '. Hospital Management Software <br>\n' +
+                    '. Registration Management' +
+                    '</p>' +
+                    '</div>'
+            }
+
+            function supExp(){
+                var sup = document.querySelector('.exper');
+                sup.innerHTML='' +
+                    '<div class="infoExp">'+
+                    '<p style="font-size: 24px"> ' +
+                    '<strong> Senior Support Analyst </strong>  ' +
+                    '</p>' +
+                    '<p style="margin-top: 5vw"> I perform activities focused on the ERP (Enterprise Resource Planning) and POS (Point of Sale) systems,<br>\n' +
+                    '                with the following main responsibilities:\n' +
+                    '                </p>' +
+                    '<p>\n' +
+                    '                . Support Team Management <br>\n' +
+                    '                . Presentation Of Support Performance indicators <br>\n' +
+                    '                . Management of Demands <br>\n' +
+                    '                . Implementation of New Methodologies <br>\n' +
+                    '                . Support applied to fiscal and financial areas and complex demands.\n' +
+                    '                </p>' +
+                    '<p>\n' +
+                    '                Acting as Key Account for the OAKBERRY and NUTTYBAVARIAN franchises, <br>\n' +
+                    '                overseeing franchise structures, assisting in sales points, product, finance, and data analysis.\n' +
+                    '                </p>\n' +
+                    '<p>\n' +
+                    '                I have been working at Unika Sistema for 3 years, where I gained experience with ERP, POS, and BI management software, <br>\n' +
+                    '                where i gained a high level of knowledge in fiscal routines, invoice issuance, <br>\n' +
+                    '                food service structures, technical support, and team management.\n' +
+                    '                </p>' +
+                    '</div>'
+
+            }
+        </script>
+    </head>
+</html>
