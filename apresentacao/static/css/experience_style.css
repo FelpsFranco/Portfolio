@@ -1,16 +1,26 @@
 
 body {
     margin: 0;
+    background: #ecc9ee;
+    height: 100vh;
 }
 
 .divLogo {
-    width: 25vw;
-    margin-left: 1vw;
+    width: 100%;
+    height: 5vw;
     margin-bottom: -4vw;
+    background: #5d548e;
+}
+
+.teste {
+    display: inline-block;
+    vertical-align: middle;
+    height: 1px;
+    width: 5px;
 }
 
 .divButtonMain {
-    margin-top: 2vw;
+    margin-top: 1vw;
     margin-left: 90vw;
 }
 
@@ -18,43 +28,49 @@ body {
     display: inline-block;
     font-family: "Times New Roman", Times, serif;
     text-decoration: #e8e8e8;
-    color: #e8e8e8;
-    background: #1b1b1b;
+    color: #121212;
     border-radius: 10px;
     padding: 3px 20px;
     font-size: 18px;
     font-style: normal;
+    margin-top: -0.5vw;
 }
 
 .buttonMain:hover {
-    background: #1b1b1b;
+    background: #c9a7eb;
 }
+
 
 .logo{
     width: 50px;
     height: 50px;
-    margin-top: 0.5vw;
-    margin-bottom: -1vw;
+    margin-top: -0.3vw;
+    margin-bottom: -2vw;
     margin-left: 45vw;
 }
 
+.fundoExper {
+    width: 100%;
+    height: 32vw;
+
+}
 
 .infoExp {
     width: 60vw;
     height: 10vw;
+
 }
 
 .exper {
-    margin-top: 2vw;
-    margin-left: 5vw;
+    margin-left: 3.2vw;
     font-size: 18px;
     font-family: "Times New Roman", Times, serif;
-    color: burlywood;
-
+    color: #212121;
+    margin-top: 2vw;
 }
 
 .divButton {
-    margin-top: 8vw;
+    margin-top: 4vw;
 
 }
 
@@ -62,12 +78,24 @@ body {
     margin-left: 3vw;
     border-radius: 30px;
     padding: 5px 20px;
-    background: #1b1b1b;
-    color: #e8e8e8;
+    cursor: pointer;
 }
+
+.buttonAdm:active {
+    background: #121212;
+    color: #e8e8e8;
+
+}
+
 
 .buttonSup {
     margin-left: 5vw;
     border-radius: 30px;
     padding: 5px 20px;
+    cursor: pointer;
+}
+
+.buttonSup:active {
+    background: #121212;
+    color: #e8e8e8;
 }

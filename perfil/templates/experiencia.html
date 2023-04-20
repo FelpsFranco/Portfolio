@@ -3,21 +3,47 @@
 {% load static %}
 {% block content %}
 
-    <body style="background-image: url('{% static 'img/fundo.png' %}')">
+    <body>
         <div class="divLogo">
-            <a href="https://docs.python.org/pt-br/3/tutorial/index.html">
+            <a href="https://docs.python.org/pt-br/3/tutorial/index.html" class="teste">
                 <img src="{% static 'img/logo_python.png' %}" alt="Logo Python" class="logo">
             </a>
         </div>
         <div class="divButtonMain">
             <a class="buttonMain" href="{% url 'index' %}">
-                Initial
+                Home
             </a>
         </div>
         <div class="divButton">
             <button onclick="admExp()" class="buttonAdm"> Internship </button>
             <button onclick="supExp()" class="buttonSup"> IT Experience </button>
         </div>
-        <div class="exper"> </div>
+        <div class="fundoExper">
+            <div class="exper">
+                <p style="font-size: 24px" >
+                    <strong> Senior Support Analyst </strong>
+                </p>
+                <p>
+                    I perform activities focused on the ERP (Enterprise Resource Planning) and POS (Point of Sale) systems,<br>
+                    with the following main responsibilities:
+                </p>
+                <p>
+                    . Support Team Management <br>
+                    . Presentation Of Support Performance indicators <br>
+                    . Management of Demands <br>
+                    . Implementation of New Methodologies <br>
+                    . Support applied to fiscal and financial areas and complex demands.
+                </p>
+                <p>
+                    Acting as Key Account for the OAKBERRY and NUTTYBAVARIAN franchises, <br>
+                    overseeing franchise structures, assisting in sales points, product, finance, and data analysis.
+                </p>
+                <p>
+                    I have been working at Unika Sistema for 3 years, where I gained experience with ERP, POS, and BI management software, <br>
+                    where i gained a high level of knowledge in fiscal routines, invoice issuance, <br>
+                    food service structures, technical support, and team management.
+                </p>
+            </div>
+        </div>
     </body>
 {% endblock %}

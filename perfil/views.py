@@ -9,3 +9,6 @@ def index(request):
 def experiencia(request):
     return render(request, 'experiencia.html')
 
+def skils(request):
+    return render(request, 'skils.html')
+

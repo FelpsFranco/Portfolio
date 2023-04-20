@@ -1,0 +1,46 @@
+<!doctype html>
+{% load static %}
+
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/skils_style.css' %}">
+        <script>
+            function skilPy() {
+                var skilPython = document.querySelector('.expPy')
+                skilPython.innerHTML=' PYTHON '
+            }
+            function skilDoc() {
+                var skilDocument = document.querySelector('.expPy')
+                skilDocument.innerHTML=' DOCUMENTO '
+            }
+
+        </script>
+    </head>
+    <body>
+        <div class="divLogo" >
+            <a href="https://docs.python.org/pt-br/3/tutorial/index.html" target="_blank" class="divLogoInitial">
+                <img src="{% static 'img/logo_python.png' %}" alt="Logo Python" class="logo">
+            </a>
+        </div>
+        <div class="divButtonMain">
+            <a class="buttonMain" href="{% url 'index' %}">
+                Home
+            </a>
+        </div>
+        <div class="buttons">
+            <button onclick="skilPy()" class="buttonPy"> PYTHON SKILS </button>
+            <button onclick="skilDoc()" class="buttonDoc"> DOC SKILS </button>
+        </div>
+        <div class="expPy">
+
+        </div>
+
+    </body>
+</html>
