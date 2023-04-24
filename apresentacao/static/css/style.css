@@ -27,6 +27,26 @@ body {
     margin-left: 25vw;
 }
 
+.felipe {
+    position: absolute;
+    animation-name: slideInFromRight;
+    transform: translateX(5%) translateY(-15%);
+
+    animation-duration: 3s;
+
+}
+
+@keyframes slideInFromRight {
+    0% {
+
+        transform: translateX(80vw) translateY(-15%);
+
+    }
+    100% {
+        transform: translateX(5%) translateY(-15%);
+    }
+}
+
 .felipe:hover {
     background: #c9a7eb;
 }
@@ -143,8 +163,22 @@ body {
     font-size: 68px;
     color: #c9a7eb;
     font-family: "Times New Roman", Times, serif;
-    margin-top: -90vw;
-    margin-left: -85vw;
     opacity: 70%;
-    transform: rotate(270deg);
+    position: absolute;
+    bottom: -15%;
+    left: -2%;
+    transform: translateY(100%) rotate(270deg) translateX(100%);
+    animation-name: slideInFromBottom;
+    animation-duration: 3s;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+
+        transform: translateY(100%) rotate(270deg) translateX(-30%);
+
+    }
+    100% {
+        transform: translateY(100%) rotate(270deg) translateX(100%);
+    }
 }
