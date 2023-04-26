@@ -1,11 +1,10 @@
 body {
     margin: 0;
-    background: #ecc9ee;
+    background: moccasin;
     height: 100vh;
 }
 
 .divLogo {
-    width: 100%;
     height: 5vw;
     margin-bottom: -4vw;
     background: #5d548e;
@@ -13,9 +12,9 @@ body {
 
 .divLogoInitial {
     display: inline-block;
-    vertical-align: middle;
-    height: 1px;
-    width: 5px;
+    vertical-align: center;
+    height: 1vw;
+    width: 1vw;
 }
 
 .divButtonMain {
@@ -28,9 +27,9 @@ body {
     display: inline-block;
     font-family: "Times New Roman", Times, serif;
     text-decoration: #e8e8e8;
-    color: #121212;
-    border-radius: 10px;
-    padding: 3px 20px;
+    color: #e8e8e8;
+    border-radius: 0.5vw;
+    padding: 0.5vw 1vw;
     font-size: 18px;
     font-style: normal;
     margin-top: -0.5vw;
@@ -38,55 +37,196 @@ body {
 
 .buttonMain:hover {
     background: #c9a7eb;
+    color: #1b1b1b;
+
 }
 
 
 .logo{
-    width: 50px;
-    height: 50px;
-    margin-top: -0.3vw;
+    width: 3.5vw;
+    height: 3.5vw;
+    margin-top: 0.5vw;
     margin-bottom: -2vw;
-    margin-left: 45vw;
+    margin-left: 48vw;
 }
 
-.divButton {
-    margin-top: 4vw;
-
+.indica {
+    width: 15vw;
+    height: 2.5vw;
+    background: #417690;
+    color: #dddddd;
+    margin-left: 42.5vw;
+    margin-top: 2vw;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 18px;
 }
 
-.buttonPy{
+.expPy {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-top: -2vw;
+    height: 25vw;
     margin-left: 3vw;
-    border-radius: 30px;
-    padding: 5px 20px;
-    cursor: pointer;
-    margin-top: 5vw;
+    background: #c6b2ee;
+    width: 25vw;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
 }
 
-.buttonPy:hover {
+.divStylePy {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-top: 4vw;
+    margin-left: 3vw;
+    color: #dddddd;
+    background: #205067;
+    width: 25vw;
+    height: 5vw;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.divStylePy:hover {
+    color: #1b1b1b;
+}
+
+.divStyleLib {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-top: -28vw;
+    margin-left: 37.5vw;
+    color: #dddddd;
+    background: #417690;
+    width: 25vw;
+    height: 5vw;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.divStyleLib:hover {
+    color: #1b1b1b;
+}
+
+.expLib {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    height: 25vw;
+    margin-top: -2vw;
+    margin-left: 37.5vw;
+    background: #c6b2ee;
+    width: 25vw;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.divStylePro {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-top: -34vw;
+    margin-left: 72vw;
+    color: #dddddd;
+    background: darkcyan;
+    width: 25vw;
+    height: 5vw;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.divStylePro:hover {
+    color: #1b1b1b;
+}
+
+.expPro {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    height: 25vw;
+    margin-top: -2vw;
+    margin-left: 72vw;
+    background: #c6b2ee;
+    width: 25vw;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.links {
+    font-family: "Times New Roman", Times, serif;
+    color: #1b1b1b;
+    text-decoration: #e8e8e8;
+}
+
+.links:hover {
+    color: #dddddd;
+}
+
+.linhaE {
+    width: 10vw;
+    height: 0.3vw;
     background: #1b1b1b;
-    color: #d6d6d6;
+    margin-top:-30vw;
+    margin-left: 30vw;
+    rotate: 160deg;
 }
-
-.buttonpY:active {
-    background: #121212;
-    color: #e8e8e8;
-
-}
-
-
-.buttonDoc {
-    margin-left: 5vw;
-    border-radius: 30px;
-    padding: 5px 30px;
-    cursor: pointer;
-}
-
-.buttonDoc:hover {
+.linhaC {
+    width: 4vw;
+    height: 0.3vw;
     background: #1b1b1b;
-    color: #d6d6d6;
+    margin-top: 1vw;
+    margin-left: 47.5vw;
+    rotate: 90deg;
 }
 
-.buttonDoc:active {
-    background: #121212;
-    color: #e8e8e8;
+.linhaD {
+    width: 10vw;
+    height: 0.3vw;
+    background: #1b1b1b;
+    margin-top: -1.5vw;
+    margin-left: 60vw;
+    rotate: -160deg;
+}
+
+.indicaTi {
+    width: 15vw;
+    height: 2.5vw;
+    background: #525252;
+    color: #d6d6d6;
+    margin-left: 42.5vw;
+    margin-top: 37vw;
+    border-radius: 7%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.expTi {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-top: -2vw;
+    height: 20vw;
+    margin-left: 37.5vw;
+    background: #d6d6d6;
+    width: 25vw;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.divStyleTi {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-top: 3vw;
+    margin-left: 37.5vw;
+    color: #1b1b1b;
+    background: #777777;
+    width: 25vw;
+    height: 5vw;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.linhaBaixo {
+    width: 2vw;
+    height: 0.3vw;
+    background: #1b1b1b;
+    margin-top: -26vw;
+    margin-left: 49vw;
+    rotate: 90deg;
 }

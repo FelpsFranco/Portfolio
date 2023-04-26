@@ -11,4 +11,3 @@ def experiencia(request):
 
 def skils(request):
     return render(request, 'skils.html')
-

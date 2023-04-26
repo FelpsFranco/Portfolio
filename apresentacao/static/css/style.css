@@ -59,7 +59,7 @@ body {
 .buttonExp {
     display: inline-block;
     font-family: "Times New Roman", Times, serif;
-    margin-left: 65vw;
+    margin-left: 75vw;
     text-decoration: #e8e8e8;
     color: #1b1b1b;
     border-radius: 5px;
@@ -90,22 +90,6 @@ body {
     background: cadetblue;
 }
 
-.buttonTrabalhos {
-    display: inline-block;
-    font-family: "Times New Roman", Times, serif;
-    margin-top: 25px;
-    margin-left: 1vw;
-    text-decoration: #e8e8e8;
-    color: #1b1b1b;
-    border-radius: 5px;
-    font-size: 18px;
-    font-style: normal;
-    padding: 3px 15px;
-}
-
-.buttonTrabalhos:hover {
-    background: cadetblue;
-}
 
 .icon {
     width: 30vw;
