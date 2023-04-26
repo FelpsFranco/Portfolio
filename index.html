@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <body>
+        <div class="divLogo">
+            <a>
+                <img src="{% static 'img/logo_python.png' %}" alt="Logo Python" class="logo">
+            </a>
+        </div>
+        <div class="divButtons">
+            <a class="buttonExp" href=" {% url 'experiencia' %}">
+                Professional Experience
+            </a>
+            <a class="buttonConhece" href=" {% url 'skils' %}">
+                Skills
+            </a>
+        </div>
+        <div class="name">
+            <br> <br> <br>
+            <p style="margin-top: 20px"> Hi, my name is <strong class="felipe" style="font-size: 30px; color: #121212"> Felipe Franco </strong> </p>
+            <p style="margin-left: 100px" > I'll tell you a little about <strong style="font-size: 38px; color: #121212"> myself ! </strong></p>
+            <p style="margin-top: 50px; font-size: 16px">
+                I'm a Software Engineer, currently focusing on Python studies for Data and Web Analysis (Django Framework).
+                <br>
+                Working as a Senior Support Analyst focusing on ERP (Enterprise Resource Planning), POS(Point Of Sale) and BI!
+            </p>
+        </div>
+        <div class="icon">
+            <a href="https://github.com/FelpsFranco" target="_blank" class="labelImgGit">
+                <img src="{% static 'img/icon_git.png' %}" alt="Icon Github" class="imagem_git">
+            </a>
+            <a href="https://www.linkedin.com/in/felipe-franco-03ba90180/" target="_blank" class="labelImgLin">
+                <img src="{% static 'img/icon_linkedin.png' %}" alt="Icon Github" class="imagem_linke">
+            </a>
+            <a href="https://instagram.com/felipesfranco?igshid=ZDdkNTZiNTM="target="_blank"  class="labelImgIn">
+                <img src="{% static 'img/icon_insta.png' %}" alt="Icon Insta" class="imagem_insta">
+            </a>
+        </div>
+        <p class="textFundo">
+            WELCOME ! !
+        </p>
+    </body>
+{% endblock %}
