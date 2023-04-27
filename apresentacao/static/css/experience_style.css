@@ -1,101 +1,205 @@
+@media (min-width: 900px) {
+    body {
+        margin: 0;
+        background: #ecc9ee;
+        height: 100vh;
+    }
 
-body {
-    margin: 0;
-    background: #ecc9ee;
-    height: 100vh;
+    .divLogo {
+        width: 100%;
+        height: 5vw;
+        margin-bottom: -4vw;
+        background: #5d548e;
+    }
+
+    .teste {
+        display: inline-block;
+        vertical-align: middle;
+        height: 1px;
+        width: 5px;
+    }
+
+    .divButtonMain {
+        margin-top: 1vw;
+        margin-left: 90vw;
+    }
+
+    .buttonMain {
+        display: inline-block;
+        font-family: "Times New Roman", Times, serif;
+        text-decoration: #e8e8e8;
+        color: #121212;
+        border-radius: 10px;
+        padding: 3px 20px;
+        font-size: 18px;
+        font-style: normal;
+        margin-top: -0.5vw;
+    }
+
+    .buttonMain:hover {
+        background: #c9a7eb;
+    }
+
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-top: -0.3vw;
+        margin-bottom: -2vw;
+        margin-left: 45vw;
+    }
+
+    .fundoExper {
+        width: 100%;
+        height: 32vw;
+
+    }
+
+    .infoExp {
+        width: 80vw;
+        height: 10vw;
+
+    }
+
+    .exper {
+        margin-left: 3.2vw;
+        font-size: 18px;
+        font-family: "Times New Roman", Times, serif;
+        color: #212121;
+        margin-top: 2vw;
+    }
+
+    .divButton {
+        margin-top: 4vw;
+
+    }
+
+    .buttonAdm {
+        margin-left: 3vw;
+        border-radius: 30px;
+        padding: 5px 20px;
+        cursor: pointer;
+    }
+
+    .buttonAdm:active {
+        background: #121212;
+        color: #e8e8e8;
+
+    }
+
+
+    .buttonSup {
+        margin-left: 5vw;
+        border-radius: 30px;
+        padding: 5px 20px;
+        cursor: pointer;
+    }
+
+    .buttonSup:active {
+        background: #121212;
+        color: #e8e8e8;
+    }
 }
 
-.divLogo {
-    width: 100%;
-    height: 5vw;
-    margin-bottom: -4vw;
-    background: #5d548e;
-}
+@media (max-width: 900px) {
+    body {
+        margin: 0;
+        background: #ecc9ee;
+        height: 100vh;
+    }
 
-.teste {
-    display: inline-block;
-    vertical-align: middle;
-    height: 1px;
-    width: 5px;
-}
+    .divLogo {
+        width: 100%;
+        height: 15vw;
+        margin-bottom: -4vw;
+        background: #5d548e;
+    }
 
-.divButtonMain {
-    margin-top: 1vw;
-    margin-left: 90vw;
-}
+    .teste {
+        display: inline-block;
+        vertical-align: middle;
+        height: 1px;
+        width: 5px;
+    }
 
-.buttonMain {
-    display: inline-block;
-    font-family: "Times New Roman", Times, serif;
-    text-decoration: #e8e8e8;
-    color: #121212;
-    border-radius: 10px;
-    padding: 3px 20px;
-    font-size: 18px;
-    font-style: normal;
-    margin-top: -0.5vw;
-}
+    .divButtonMain {
+        margin-top: -10vw;
+        margin-left: 70vw;
+    }
 
-.buttonMain:hover {
-    background: #c9a7eb;
-}
+    .buttonMain {
+        display: inline-block;
+        font-family: "Times New Roman", Times, serif;
+        text-decoration: #e8e8e8;
+        color: #121212;
+        border-radius: 10px;
+        padding: 3px 20px;
+        font-size: 16px;
+        font-style: normal;
+        margin-top: -15vw;
+    }
 
-
-.logo{
-    width: 50px;
-    height: 50px;
-    margin-top: -0.3vw;
-    margin-bottom: -2vw;
-    margin-left: 45vw;
-}
-
-.fundoExper {
-    width: 100%;
-    height: 32vw;
-
-}
-
-.infoExp {
-    width: 80vw;
-    height: 10vw;
-
-}
-
-.exper {
-    margin-left: 3.2vw;
-    font-size: 18px;
-    font-family: "Times New Roman", Times, serif;
-    color: #212121;
-    margin-top: 2vw;
-}
-
-.divButton {
-    margin-top: 4vw;
-
-}
-
-.buttonAdm{
-    margin-left: 3vw;
-    border-radius: 30px;
-    padding: 5px 20px;
-    cursor: pointer;
-}
-
-.buttonAdm:active {
-    background: #121212;
-    color: #e8e8e8;
-
-}
+    .buttonMain:hover {
+        background: #c9a7eb;
+    }
 
 
-.buttonSup {
-    margin-left: 5vw;
-    border-radius: 30px;
-    padding: 5px 20px;
-    cursor: pointer;
-}
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-top: -0.9vw;
+        margin-bottom: -2vw;
+        margin-left: 45vw;
+    }
 
-.buttonSup:active {
-    background: #121212;
-    color: #e8e8e8;
+    .fundoExper {
+        width: 100%;
+        height: 32vw;
+
+    }
+
+    .infoExp {
+        width: 80vw;
+        height: 10vw;
+
+    }
+
+    .exper {
+        margin-left: 3.2vw;
+        font-size: 18px;
+        font-family: "Times New Roman", Times, serif;
+        color: #212121;
+        margin-top: 2vw;
+    }
+
+    .divButton {
+        margin-top: 10vw;
+
+    }
+
+    .buttonAdm {
+        margin-left: 3vw;
+        border-radius: 30px;
+        padding: 5px 20px;
+        cursor: pointer;
+    }
+
+    .buttonAdm:active {
+        background: #121212;
+        color: #e8e8e8;
+
+    }
+
+
+    .buttonSup {
+        margin-left: 5vw;
+        border-radius: 30px;
+        padding: 5px 20px;
+        cursor: pointer;
+    }
+
+    .buttonSup:active {
+        background: #121212;
+        color: #e8e8e8;
+    }
 }
